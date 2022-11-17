@@ -1,4 +1,4 @@
-This is a simple to-do application with the following business requirements.
+# This is a simple to-do application with the following business requirements
 
 -Ask user whether he wants to view / create a to-do
 -Users should be able to write to-dos
