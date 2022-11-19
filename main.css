@@ -62,6 +62,7 @@ button {
   font-weight: 700;
   background-image: linear-gradient(to right, var(--a1), var(--a2));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
   margin-top: 2rem;
@@ -146,9 +147,17 @@ main {
 .task .actions .edit {
   background-image: linear-gradient(to right, var(--a1), var(--a2));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.task .actions .delete {
+/* .task .actions .delete {
   color: crimson;
+} */
+
+.task .actions .delete {
+  background-image: linear-gradient(to right, var(--a1), var(--a2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
